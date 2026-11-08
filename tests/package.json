@@ -1,0 +1,13 @@
+{
+  "name": "mindforge-tests",
+  "private": true,
+  "description": "Development-only tests for MindForge. Not part of the shipped app.",
+  "scripts": {
+    "browser": "node browser/run.js",
+    "unit": "node --test \"node/*.test.js\""
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1",
+    "playwright-core": "^1.48.2"
+  }
+}

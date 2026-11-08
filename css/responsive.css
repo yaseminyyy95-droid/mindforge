@@ -1,0 +1,27 @@
+@media (max-width:760px){
+ .topbar{flex-wrap:wrap;padding:12px 16px;gap:8px}
+ #nav{order:3;flex-basis:100%;overflow-x:auto}
+ main{padding:20px 16px 48px}
+ .hero{grid-template-columns:1fr!important}
+ .cat-grid{grid-template-columns:1fr 1fr}
+ .table-wrap{overflow-x:auto}
+}
+@media (max-width:760px){
+ .mm-actions{margin-left:0;width:100%}
+ .mm-chips{gap:16px}
+ .mm-panel{margin:16px auto}
+}
+/* Phones: compact game header so the play area (e.g. Number Compare answers) fits above the fold */
+@media (max-width:560px){
+ main{padding-top:12px}
+ .mm-head{padding:10px 14px;gap:6px 12px;margin-bottom:8px}
+ .mm-head h2{font-size:1.05rem}
+ .mm-head>div:first-child>.muted{display:none}
+ .mm-chips{gap:14px}
+ .mm-chips b{font-size:1.05rem}
+ .mm-chips .muted{font-size:.75rem}
+ .mm-head>.btn{margin-left:auto;padding:8px 14px;min-height:44px}
+ .nc-board{gap:6px;margin-top:10px}
+ .nc-side{min-height:72px;padding:10px}
+ .nc-choices{margin-top:10px}
+}

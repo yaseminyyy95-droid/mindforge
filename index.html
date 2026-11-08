@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MindForge</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/games.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#" data-action="nav" data-view="dashboard">MindForge</a>
+  <nav id="nav">
+    <button data-action="nav" data-view="dashboard">Dashboard</button>
+    <button data-action="nav" data-view="history">Progress</button>
+    <button data-action="nav" data-view="settings">Settings</button>
+  </nav>
+  <div class="topbar-stats" id="topbarStats"></div>
+</header>
+<main id="app"></main>
+<div class="modal" id="modal" hidden></div>
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/scoring.js"></script>
+<script src="js/difficulty.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/profile.js"></script>
+<script src="games/memory/memory-match.js"></script>
+<script src="games/memory/sequence-recall.js"></script>
+<script src="games/memory/grid-memory.js"></script>
+<script src="games/speed/reaction-rush.js"></script>
+<script src="games/speed/quick-switch.js"></script>
+<script src="games/speed/speed-sequence.js"></script>
+<script src="games/attention/target-focus.js"></script>
+<script src="games/attention/color-filter.js"></script>
+<script src="games/attention/distraction-hunt.js"></script>
+<script src="games/math/quick-calculate.js"></script>
+<script src="games/math/number-compare.js"></script>
+<script src="games/math/missing-number.js"></script>
+<script src="games/logic/pattern-shift.js"></script>
+<script src="games/logic/logic-grid.js"></script>
+<script src="games/logic/path-finder.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
